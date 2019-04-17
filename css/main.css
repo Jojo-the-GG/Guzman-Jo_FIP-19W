@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule, this is only for demo purposes to make the boxes black with white text
+The line height on the <p> tag gives each box a height value*/
+body {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa136c57-7838-4053-828e-7d4abc8af004/dd4ol4e-778ca0b3-6fa6-4d37-b935-3ec7c96e3cad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhMTM2YzU3LTc4MzgtNDA1My04MjhlLTdkNGFiYzhhZjAwNFwvZGQ0b2w0ZS03NzhjYTBiMy02ZmE2LTRkMzctYjkzNS0zZWM3Yzk2ZTNjYWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YmJ1ssbt0HbCdFAz4Sq3WCFEZRWQ9wIbvGIsxdClCvE);
+	background-repeat: repeat-y-x;
+}
+
+p {
+	color: #4bc3a7;
+	margin: 0;
+	font-size: 31px;
+	letter-spacing: 2px;
+	}
+
+.mediaRoundup {
+	float: right;
+}
+
+.socialMedia {
+	text-align: center;
+	width: 170px;
+	height: 140px;
+	border: none;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.socialMedia p {
+	color: #303030;
+}
+
+
+#mainNav li {
+	font-size: 31px;
+	 display: inline;
+}
+
+
+
+
+
+/*basic reset*/
+/*browsers have built in values for elements so we'll reset a few things to zero*/
+
+div,p,body,header,footer,section,article,nav {
+margin: 0;
+padding: 0;
+}
+
+img {
+border: none;
+margin: 0;
+padding: 0;
+}
+
+/*html selectors*/
+
+body {
+	font-family: "Bloomer DEMO", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: #333;
+}
+
+
+/*a:link is for not visited, a:visited is for visited, and just a applies to both.*/
+/*a will also style anchor links*/
+
+a:link, a:visited {
+text-decoration:none;
+color: #4bc3a7;
+}
+
+a:hover, a:active {
+text-decoration:none;
+color: #2685de; }
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+	display: none;
+}
+
+/*Div is block level and no width specified therefore stretches full screen*/
+#topBar{
+	background-color: #000;
+	height: 20px;
+}
+
+/*Site Container*/
+/*This is essentially a box that we place the whole site in.
+We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+	/*http://coding.smashingmagazine.com/2009/10/19/the-mystery-of-css-float-property/*/
+
+}
+
+#logo{
+	width: 289px;
+	float: left;
+}
+
+#mainNav {
+	float: right;
+	width: 500px;
+
+	margin-left: auto;
+}
+
+.video {
+	text-align: center;
+	margin-top: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+	padding-bottom: 40px;
+}
+
+
+
+#promo {
+	margin-top: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+	padding-bottom: 40px;
+}
+
+/*Get rid of this, here just to give different height to promo*/
+#promo p {
+	line-height: 250px;
+}
+
+#promoText {
+	float: left;
+	width: 600px;
+}
+
+#promoImage {
+	float: right;
+	width: 280px;
+}
+
+#productInfo {
+	margin-top: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+	padding: 0px;
+	padding-bottom: 30px;
+	/*background: #191919;*/
+	border-radius: 5px;
+}
+
+/*Get rid of this, here just to give different height to productInfo*/
+#productInfo p {
+	line-height: 35px;
+	color: #e3e6e8;
+	text-align: center;
+	margin: 0;
+}
+
+.productDesc {
+	float:left;
+	width: 200px;
+	margin-right: 40px
+}
+
+.productDescLast {
+	float:right;
+	width: 200px;
+}
+
+.roundEdge {
+	border-radius: 5px;
+}
+
+#mainFooter {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+}
+
+#mainFooter img {
+	float: left;
+}
+#mainFooter li {
+	font-size: 21px;
+	color: #grey;
+	display: inline;
+	float: left;
+	padding: 10px;
+}
+
+#footerNav {
+	float: left;
+	width: 500px;
+}
+
+#copyRight {
+	float: right;
+	width: 310px;
+}
+.copyRight p {
+	font-size: 10px;
+	color: white;
+}
+/*CONTACT FORM CSS*/
+h3 {
+	color: #4bc3a7;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3c96a8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4bc3a7;
+}
+
+.container {
+	align-self: center;
+	width: 660px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
