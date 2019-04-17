@@ -10,8 +10,8 @@ body {
 
 @font-face{
     font-family: "Bloomer DEMO";
-    src: url('../fonts/Bloomer-DEMO.woff2') format('woff2'),
-        url('../fonts/Bloomer-DEMO.woff') format('woff');
+    src: url('../fonts/bloomer-demo.woff') format('woff'),
+        url('../fonts/bloomer-demo.woff2') format('woff2');
 }
 
 p {
