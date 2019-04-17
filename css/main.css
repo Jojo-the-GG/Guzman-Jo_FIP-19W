@@ -66,7 +66,7 @@ padding: 0;
 /*html selectors*/
 
 body {
-	font-family: "Bloomer DEMO", Helvetica, Arial, sans-serif;
+	font-family: "Bloomer DEMO", Impact, Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	color: #333;
 }
@@ -202,16 +202,31 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 #mainFooter li {
 	font-size: 21px;
-	color: #grey;
+	color: #fff;
 	display: inline;
 	float: left;
 	padding: 10px;
+}
+
+#mainFooter p {
+	color: #fff;
+	font-size: 21px;
+	margin-top: 50px;
+	float: right;
 }
 
 #footerNav {
 	float: left;
 	width: 500px;
 }
+#footerNav a{
+	color: #fff;
+}
+
+.logoNudge {
+	padding-top: 20px;
+}
+
 
 #copyRight {
 	float: right;
