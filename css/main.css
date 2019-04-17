@@ -7,11 +7,13 @@ body {
 	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fa136c57-7838-4053-828e-7d4abc8af004/dd4ol4e-778ca0b3-6fa6-4d37-b935-3ec7c96e3cad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhMTM2YzU3LTc4MzgtNDA1My04MjhlLTdkNGFiYzhhZjAwNFwvZGQ0b2w0ZS03NzhjYTBiMy02ZmE2LTRkMzctYjkzNS0zZWM3Yzk2ZTNjYWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YmJ1ssbt0HbCdFAz4Sq3WCFEZRWQ9wIbvGIsxdClCvE);
 	background-repeat: repeat-y-x;
 }
+
 @font-face{
     font-family: "Bloomer DEMO";
     src: url('../fonts/Bloomer-DEMO.woff2') format('woff2'),
         url('../fonts/Bloomer-DEMO.woff') format('woff');
 }
+
 p {
 	color: #4bc3a7;
 	margin: 0;
